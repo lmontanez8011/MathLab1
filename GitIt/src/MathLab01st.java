@@ -68,7 +68,7 @@ public class MathLab01st
 //		System.out.println("Trapezoid Area:                   " + Geometry.trapezoidArea(base1,base2,height));
 //		System.out.println("Hexagon Area:                     " + Geometry.hexagonArea(base1,base2,height));
 //		System.out.println("Circle Area:                      " + Geometry.circleArea(radius));
-		System.out.println("\n");
+		System.out.println("\n"); 
 	}
 
 
@@ -143,6 +143,8 @@ public static double circumfrence (double r)
 	{
 		return l * w;
 	}
+	
+	
 
 
     // 3D Surface Areas
