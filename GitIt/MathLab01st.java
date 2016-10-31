@@ -107,12 +107,31 @@ class Geometry
 	{ 
 	    return 4 * s; 
 	}
+	public static double pentagonPerimeter (double s)
+	{
+		return 5 *s;
+	}
 	
+public static double hexagonPerimeter (double s)
+	{
+		return 6 *s;
+	}
+
+public static double octogonPerimeter (double s)
+	{
+		return 8 *s;
+	}
+public static double rectanglePerimeter (double l, double w)
+	{
+	return (l + w) *2;
+	}
+
+public static double circumfrence (double r)
+	{
+	return r * Math.PI * 2;
+	}
 
 
-
-	
-		
 	// 2D Areas
 	public static double squareArea (double s)             
 	{ 

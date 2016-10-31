@@ -12,7 +12,7 @@ public class MathLab01st
 {
 	public static double side, length, width, height, base1, base2, radius;
 	
-
+	public static void main (String args[ ])					
 	{   
 		System.out.println("\nMathLab01\n\n");
 		enterData();
@@ -143,8 +143,6 @@ public static double circumfrence (double r)
 	{
 		return l * w;
 	}
-	
-	public static double ParallelogramArea (double 1)
 
 
     // 3D Surface Areas
